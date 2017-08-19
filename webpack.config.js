@@ -25,5 +25,8 @@ module.exports = {
       filename: 'index.html',
       template: 'assets/index.html',
     })
-  ]
+  ],
+  devServer: {
+    historyApiFallback: true
+  }
 };
