@@ -13,8 +13,7 @@ const App = ({store, history}) => (
     <ConnectedRouter  history={history} >
       <div>
         <h1>Hello world!</h1>
-        <Link to="/add-contact" >Link </Link>
-        <Link to="/0/edit" >Link 2 </Link>
+        <Link to="/add-contact" >Add contact </Link>
         <Route exact path='/' component={HomepageContainer} />
         <Route path='/:id/edit' component={ContactFormContainer} />
         <Route path='/add-contact' component={ContactFormContainer} />

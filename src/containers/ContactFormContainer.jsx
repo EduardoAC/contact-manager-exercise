@@ -3,7 +3,10 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
 
-import { addContact } from '../actions/contacts';
+import {
+  addContact,
+  updateContact
+} from '../actions/contacts';
 import ContactForm from '../components/ContactForm';
 
 class ContactFormContainer extends Component {
@@ -13,8 +16,12 @@ class ContactFormContainer extends Component {
   }
 
   handleSubmit(values) {
-    const { addContact, homepageRedirect } = this.props;
-    addContact(values);
+    const { contact, contactId, addContact, updateContact, homepageRedirect } = this.props;
+    if (contactId && contact){
+      updateContact(contactId, values);
+    } else {
+      addContact(values);
+    }
     homepageRedirect();
   }
 
@@ -28,20 +35,37 @@ class ContactFormContainer extends Component {
 }
 
 ContactFormContainer.propTypes = {
+  contactId: PropTypes.string,
   contact: PropTypes.shape({}),
   addContact: PropTypes.func.isRequired,
   homepageRedirect: PropTypes.func.isRequired,
 };
 
+const getContactId = (props) => (
+  props.match && props.match.params && props.match.params.id
+)
+
+const getContactFromState = (state, props) => {
+  const id = getContactId(props);
+  let contact = undefined;
+  let index = -1;
+  if (id) {
+    index = state.contacts.index[id];
+  }
+  if (index >= 0) {
+    contact = state.contacts.values[index];
+  }
+  return contact;
+}
+
 const mapStateToProps = (state, ownProps) => ({
-  contact: (ownProps.match
-    && ownProps.match.params
-    && ownProps.match.params.id) ?
-    state.contacts.values[parseInt(ownProps.match.params.id, 10)] : undefined
+  contact: getContactFromState(state, ownProps),
+  contactId: getContactId(ownProps),
 });
 
 const mapDispatchToProps = (dispatch) => ({
   addContact: contact => dispatch(addContact(contact)),
+  updateContact: (contactId, contact) => dispatch(updateContact(contactId, contact)),
   homepageRedirect: () => dispatch(push('/')),
 });
 
