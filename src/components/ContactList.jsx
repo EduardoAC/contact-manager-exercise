@@ -1,24 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 
+import ContactItem from './ContactItem';
+
 const ContactList = (props) => {
   const { contacts } = props;
 
-  const contactList = contacts.map((contact) => (
-    <li
-      key={`contact-${contact.firstName}`}
-      className="contact__item"
-    >
-    {contact.firstName}
-    </li>
-  ));
+  console.log(contacts);
+
+  const contactList = contacts.map(
+    (contact) => (<ContactItem key={`contact-${contact.id}`} {...contact} />)
+  );
   return (
     <div>
       <h1>Contact List</h1>
       <button className="contact_add">Add contact</button>
-      <ul>{contactList}</ul>
+      <table>
+        <tbody>
+          {contactList}
+        </tbody>
+      </table>
     </div>
-  )
+  );
 };
 
 ContactList.propTypes = {
