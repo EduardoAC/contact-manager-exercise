@@ -5,16 +5,12 @@ import ContactItem from './ContactItem';
 
 const ContactList = (props) => {
   const { contacts } = props;
-
-  console.log(contacts);
-
   const contactList = contacts.map(
     (contact) => (<ContactItem key={`contact-${contact.id}`} {...contact} />)
   );
   return (
     <div>
       <h1>Contact List</h1>
-      <button className="contact_add">Add contact</button>
       <table>
         <tbody>
           {contactList}
