@@ -1,33 +1,29 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import PropTypes from 'prop-types';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Router, Route, Link } from 'react-router-dom';
+import { ConnectedRouter } from 'react-router-redux';
 
-import ContactList from './components/ContactList';
 import { generateMockContacts } from './utils/testing';
+import HomepageContainer from './containers/HomepageContainer';
 import ContactFormContainer from './containers/ContactFormContainer';
 
-const App = ({store}) => (
+const App = ({store, history}) => (
   <Provider store={store}>
-    <Router>
+    <ConnectedRouter  history={history} >
       <div>
         <h1>Hello world!</h1>
         <Link to="/add-contact" >Link </Link>
-        <Route exact path='/' render={() => (
-            <ContactList contacts={generateMockContacts(4)} />
-          )}
-          />
-        <Route path='/add-contact' render={() => {
-            console.log('enter');
-            return (<ContactFormContainer handleSubmit={()=> {console.log('hello');}} />);
-          }} />
+        <Route exact path='/' component={HomepageContainer} />
+        <Route path='/add-contact' component={ContactFormContainer} />
         </div>
-      </Router>
+    </ConnectedRouter>
   </Provider>
 );
 
 App.propTypes = {
   store: PropTypes.shape({}).isRequired,
+  history: PropTypes.shape({}).isRequired,
 }
 
 export default App;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { push } from 'react-router-redux';
 
 import { addContact } from '../actions/contacts';
 import ContactForm from '../components/ContactForm';
@@ -12,8 +13,9 @@ class ContactFormContainer extends Component {
   }
 
   handleSubmit(values) {
-    const { addContact } = this.props;
+    const { addContact, homepageRedirect } = this.props;
     addContact(values);
+    homepageRedirect();
   }
 
   render(){
@@ -23,6 +25,7 @@ class ContactFormContainer extends Component {
 
 ContactFormContainer.propTypes = {
   addContact: PropTypes.func.isRequired,
+  homepageRedirect: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = () => ({
@@ -31,6 +34,7 @@ const mapStateToProps = () => ({
 
 const mapDispatchToProps = (dispatch) => ({
   addContact: contact => dispatch(addContact(contact)),
+  homepageRedirect: () => dispatch(push('/')),
 });
 
 

@@ -6,6 +6,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    // Public path is needed to tell HtmlWebpackPlugin
+    // where the bundle should be accessed by webpack-dev-server
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.js', '.jsx']
@@ -21,6 +24,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      inject: true,
       title: 'Contact list exercose',
       filename: 'index.html',
       template: 'assets/index.html',
