@@ -19,17 +19,25 @@ class ContactFormContainer extends Component {
   }
 
   render(){
-    return (<ContactForm onSubmit={this.handleSubmit} />);
+    const { contact } = this.props;
+    return (<ContactForm
+      onSubmit={this.handleSubmit}
+      initialValues={contact}
+    />);
   }
 }
 
 ContactFormContainer.propTypes = {
+  contact: PropTypes.shape({}),
   addContact: PropTypes.func.isRequired,
   homepageRedirect: PropTypes.func.isRequired,
 };
 
-const mapStateToProps = () => ({
-
+const mapStateToProps = (state, ownProps) => ({
+  contact: (ownProps.match
+    && ownProps.match.params
+    && ownProps.match.params.id) ?
+    state.contacts.values[parseInt(ownProps.match.params.id, 10)] : undefined
 });
 
 const mapDispatchToProps = (dispatch) => ({

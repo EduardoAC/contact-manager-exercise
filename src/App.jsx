@@ -14,7 +14,9 @@ const App = ({store, history}) => (
       <div>
         <h1>Hello world!</h1>
         <Link to="/add-contact" >Link </Link>
+        <Link to="/0/edit" >Link 2 </Link>
         <Route exact path='/' component={HomepageContainer} />
+        <Route path='/:id/edit' component={ContactFormContainer} />
         <Route path='/add-contact' component={ContactFormContainer} />
         </div>
     </ConnectedRouter>
