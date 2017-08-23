@@ -7,7 +7,7 @@ import { deleteContact } from '../actions/contacts';
 import ContactList from '../components/ContactList';
 import { getContactId, getContactFromState } from '../utils/contactsTools';
 
-class ContactDeleteContainer extends Component {
+export class ContactDeleteContainer extends Component {
   constructor(props) {
     super(props);
     this.handleDeleteContact = this.handleDeleteContact.bind(this);

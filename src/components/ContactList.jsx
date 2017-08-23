@@ -10,7 +10,7 @@ const ContactList = (props) => {
   );
   return (
     <div>
-      <h1>Contact List</h1>
+      <h2>Contact List</h2>
       <table>
         <tbody>
           {contactList}

@@ -20,7 +20,7 @@ const ContactItem = (props) => {
       <td>{phoneNumber}</td>
       <td>{email}</td>
       <td>
-        <Link to={`/${id}/edit`}>Edit</Link>
+        <Link to={`/${id}/edit`} style={{ marginRight: '5px' }}>Edit</Link>
         <Link to={`/${id}/delete`}>Delete</Link>
       </td>
     </tr>

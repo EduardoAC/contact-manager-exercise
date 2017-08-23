@@ -28,7 +28,6 @@ class ContactFormContainer extends Component {
 
   render(){
     const { contact } = this.props;
-    console.log(contact);
     return (<ContactForm
       onSubmit={this.handleSubmit}
       initialValues={contact}

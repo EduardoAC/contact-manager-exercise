@@ -1,0 +1,779 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ContactList /> Component redenrs correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <h2>
+        Contact List
+    </h2>
+    <table>
+        <tbody>
+            <ContactItem
+                address="4748 Collins Ramp Suite 452"
+                email="Pedro_Willms@yahoo.com"
+                firstName="Dedric"
+                id="652e3db3-1bdc-58da-1a29-6f1eaeab23d2"
+                lastName="Bednar"
+                phoneNumber="367.996.7047"
+            />
+            <ContactItem
+                address="4139 Nienow Brook Suite 754"
+                email="Rickey29@hotmail.com"
+                firstName="Anjali"
+                id="1e7e30a0-1bf1-8da3-2581-4d2cfefe477e"
+                lastName="Sanford"
+                phoneNumber="856.135.8784 x11219"
+            />
+            <ContactItem
+                address="494 Rice River Apt. 561"
+                email="Jewell_Dietrich@gmail.com"
+                firstName="Mariam"
+                id="cefa189a-7887-c589-0c41-60e220d689f9"
+                lastName="Wilderman"
+                phoneNumber="(460) 693-7128 x5124"
+            />
+            <ContactItem
+                address="1477 Roob Trail Suite 696"
+                email="Lexi.Botsford@hotmail.com"
+                firstName="Zachary"
+                id="fdec6b1f-9fd9-1018-bc84-9059ea4f6a73"
+                lastName="Ernser"
+                phoneNumber="608-099-6363 x282"
+            />
+            <ContactItem
+                address="92825 Issac Heights Suite 811"
+                email="Delfina66@hotmail.com"
+                firstName="Mariane"
+                id="e1211d78-ce71-5d4d-bc60-600ace11cd0f"
+                lastName="O'Connell"
+                phoneNumber="1-748-237-7839 x70094"
+            />
+        </tbody>
+    </table>
+</div>,
+  "nodes": Array [
+    <div>
+      <h2>
+            Contact List
+      </h2>
+      <table>
+            <tbody>
+                  <ContactItem
+                        address="4748 Collins Ramp Suite 452"
+                        email="Pedro_Willms@yahoo.com"
+                        firstName="Dedric"
+                        id="652e3db3-1bdc-58da-1a29-6f1eaeab23d2"
+                        lastName="Bednar"
+                        phoneNumber="367.996.7047"
+                  />
+                  <ContactItem
+                        address="4139 Nienow Brook Suite 754"
+                        email="Rickey29@hotmail.com"
+                        firstName="Anjali"
+                        id="1e7e30a0-1bf1-8da3-2581-4d2cfefe477e"
+                        lastName="Sanford"
+                        phoneNumber="856.135.8784 x11219"
+                  />
+                  <ContactItem
+                        address="494 Rice River Apt. 561"
+                        email="Jewell_Dietrich@gmail.com"
+                        firstName="Mariam"
+                        id="cefa189a-7887-c589-0c41-60e220d689f9"
+                        lastName="Wilderman"
+                        phoneNumber="(460) 693-7128 x5124"
+                  />
+                  <ContactItem
+                        address="1477 Roob Trail Suite 696"
+                        email="Lexi.Botsford@hotmail.com"
+                        firstName="Zachary"
+                        id="fdec6b1f-9fd9-1018-bc84-9059ea4f6a73"
+                        lastName="Ernser"
+                        phoneNumber="608-099-6363 x282"
+                  />
+                  <ContactItem
+                        address="92825 Issac Heights Suite 811"
+                        email="Delfina66@hotmail.com"
+                        firstName="Mariane"
+                        id="e1211d78-ce71-5d4d-bc60-600ace11cd0f"
+                        lastName="O'Connell"
+                        phoneNumber="1-748-237-7839 x70094"
+                  />
+            </tbody>
+      </table>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <ContactList
+        contacts={
+                Array [
+                        Object {
+                          "address": "4748 Collins Ramp Suite 452",
+                          "email": "Pedro_Willms@yahoo.com",
+                          "firstName": "Dedric",
+                          "id": "652e3db3-1bdc-58da-1a29-6f1eaeab23d2",
+                          "lastName": "Bednar",
+                          "phoneNumber": "367.996.7047",
+                        },
+                        Object {
+                          "address": "4139 Nienow Brook Suite 754",
+                          "email": "Rickey29@hotmail.com",
+                          "firstName": "Anjali",
+                          "id": "1e7e30a0-1bf1-8da3-2581-4d2cfefe477e",
+                          "lastName": "Sanford",
+                          "phoneNumber": "856.135.8784 x11219",
+                        },
+                        Object {
+                          "address": "494 Rice River Apt. 561",
+                          "email": "Jewell_Dietrich@gmail.com",
+                          "firstName": "Mariam",
+                          "id": "cefa189a-7887-c589-0c41-60e220d689f9",
+                          "lastName": "Wilderman",
+                          "phoneNumber": "(460) 693-7128 x5124",
+                        },
+                        Object {
+                          "address": "1477 Roob Trail Suite 696",
+                          "email": "Lexi.Botsford@hotmail.com",
+                          "firstName": "Zachary",
+                          "id": "fdec6b1f-9fd9-1018-bc84-9059ea4f6a73",
+                          "lastName": "Ernser",
+                          "phoneNumber": "608-099-6363 x282",
+                        },
+                        Object {
+                          "address": "92825 Issac Heights Suite 811",
+                          "email": "Delfina66@hotmail.com",
+                          "firstName": "Mariane",
+                          "id": "e1211d78-ce71-5d4d-bc60-600ace11cd0f",
+                          "lastName": "O'Connell",
+                          "phoneNumber": "1-748-237-7839 x70094",
+                        },
+                      ]
+        }
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "contacts": Array [
+            Object {
+              "address": "4748 Collins Ramp Suite 452",
+              "email": "Pedro_Willms@yahoo.com",
+              "firstName": "Dedric",
+              "id": "652e3db3-1bdc-58da-1a29-6f1eaeab23d2",
+              "lastName": "Bednar",
+              "phoneNumber": "367.996.7047",
+            },
+            Object {
+              "address": "4139 Nienow Brook Suite 754",
+              "email": "Rickey29@hotmail.com",
+              "firstName": "Anjali",
+              "id": "1e7e30a0-1bf1-8da3-2581-4d2cfefe477e",
+              "lastName": "Sanford",
+              "phoneNumber": "856.135.8784 x11219",
+            },
+            Object {
+              "address": "494 Rice River Apt. 561",
+              "email": "Jewell_Dietrich@gmail.com",
+              "firstName": "Mariam",
+              "id": "cefa189a-7887-c589-0c41-60e220d689f9",
+              "lastName": "Wilderman",
+              "phoneNumber": "(460) 693-7128 x5124",
+            },
+            Object {
+              "address": "1477 Roob Trail Suite 696",
+              "email": "Lexi.Botsford@hotmail.com",
+              "firstName": "Zachary",
+              "id": "fdec6b1f-9fd9-1018-bc84-9059ea4f6a73",
+              "lastName": "Ernser",
+              "phoneNumber": "608-099-6363 x282",
+            },
+            Object {
+              "address": "92825 Issac Heights Suite 811",
+              "email": "Delfina66@hotmail.com",
+              "firstName": "Mariane",
+              "id": "e1211d78-ce71-5d4d-bc60-600ace11cd0f",
+              "lastName": "O'Connell",
+              "phoneNumber": "1-748-237-7839 x70094",
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <h2>
+                    Contact List
+          </h2>
+          <table>
+                    <tbody>
+                              <ContactItem
+                                        address="4748 Collins Ramp Suite 452"
+                                        email="Pedro_Willms@yahoo.com"
+                                        firstName="Dedric"
+                                        id="652e3db3-1bdc-58da-1a29-6f1eaeab23d2"
+                                        lastName="Bednar"
+                                        phoneNumber="367.996.7047"
+                              />
+                              <ContactItem
+                                        address="4139 Nienow Brook Suite 754"
+                                        email="Rickey29@hotmail.com"
+                                        firstName="Anjali"
+                                        id="1e7e30a0-1bf1-8da3-2581-4d2cfefe477e"
+                                        lastName="Sanford"
+                                        phoneNumber="856.135.8784 x11219"
+                              />
+                              <ContactItem
+                                        address="494 Rice River Apt. 561"
+                                        email="Jewell_Dietrich@gmail.com"
+                                        firstName="Mariam"
+                                        id="cefa189a-7887-c589-0c41-60e220d689f9"
+                                        lastName="Wilderman"
+                                        phoneNumber="(460) 693-7128 x5124"
+                              />
+                              <ContactItem
+                                        address="1477 Roob Trail Suite 696"
+                                        email="Lexi.Botsford@hotmail.com"
+                                        firstName="Zachary"
+                                        id="fdec6b1f-9fd9-1018-bc84-9059ea4f6a73"
+                                        lastName="Ernser"
+                                        phoneNumber="608-099-6363 x282"
+                              />
+                              <ContactItem
+                                        address="92825 Issac Heights Suite 811"
+                                        email="Delfina66@hotmail.com"
+                                        firstName="Mariane"
+                                        id="e1211d78-ce71-5d4d-bc60-600ace11cd0f"
+                                        lastName="O'Connell"
+                                        phoneNumber="1-748-237-7839 x70094"
+                              />
+                    </tbody>
+          </table>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <h2>
+                    Contact List
+          </h2>
+          <table>
+                    <tbody>
+                              <ContactItem
+                                        address="4748 Collins Ramp Suite 452"
+                                        email="Pedro_Willms@yahoo.com"
+                                        firstName="Dedric"
+                                        id="652e3db3-1bdc-58da-1a29-6f1eaeab23d2"
+                                        lastName="Bednar"
+                                        phoneNumber="367.996.7047"
+                              />
+                              <ContactItem
+                                        address="4139 Nienow Brook Suite 754"
+                                        email="Rickey29@hotmail.com"
+                                        firstName="Anjali"
+                                        id="1e7e30a0-1bf1-8da3-2581-4d2cfefe477e"
+                                        lastName="Sanford"
+                                        phoneNumber="856.135.8784 x11219"
+                              />
+                              <ContactItem
+                                        address="494 Rice River Apt. 561"
+                                        email="Jewell_Dietrich@gmail.com"
+                                        firstName="Mariam"
+                                        id="cefa189a-7887-c589-0c41-60e220d689f9"
+                                        lastName="Wilderman"
+                                        phoneNumber="(460) 693-7128 x5124"
+                              />
+                              <ContactItem
+                                        address="1477 Roob Trail Suite 696"
+                                        email="Lexi.Botsford@hotmail.com"
+                                        firstName="Zachary"
+                                        id="fdec6b1f-9fd9-1018-bc84-9059ea4f6a73"
+                                        lastName="Ernser"
+                                        phoneNumber="608-099-6363 x282"
+                              />
+                              <ContactItem
+                                        address="92825 Issac Heights Suite 811"
+                                        email="Delfina66@hotmail.com"
+                                        firstName="Mariane"
+                                        id="e1211d78-ce71-5d4d-bc60-600ace11cd0f"
+                                        lastName="O'Connell"
+                                        phoneNumber="1-748-237-7839 x70094"
+                              />
+                    </tbody>
+          </table>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ContactList
+    contacts={
+        Array [
+            Object {
+              "address": "4748 Collins Ramp Suite 452",
+              "email": "Pedro_Willms@yahoo.com",
+              "firstName": "Dedric",
+              "id": "652e3db3-1bdc-58da-1a29-6f1eaeab23d2",
+              "lastName": "Bednar",
+              "phoneNumber": "367.996.7047",
+            },
+            Object {
+              "address": "4139 Nienow Brook Suite 754",
+              "email": "Rickey29@hotmail.com",
+              "firstName": "Anjali",
+              "id": "1e7e30a0-1bf1-8da3-2581-4d2cfefe477e",
+              "lastName": "Sanford",
+              "phoneNumber": "856.135.8784 x11219",
+            },
+            Object {
+              "address": "494 Rice River Apt. 561",
+              "email": "Jewell_Dietrich@gmail.com",
+              "firstName": "Mariam",
+              "id": "cefa189a-7887-c589-0c41-60e220d689f9",
+              "lastName": "Wilderman",
+              "phoneNumber": "(460) 693-7128 x5124",
+            },
+            Object {
+              "address": "1477 Roob Trail Suite 696",
+              "email": "Lexi.Botsford@hotmail.com",
+              "firstName": "Zachary",
+              "id": "fdec6b1f-9fd9-1018-bc84-9059ea4f6a73",
+              "lastName": "Ernser",
+              "phoneNumber": "608-099-6363 x282",
+            },
+            Object {
+              "address": "92825 Issac Heights Suite 811",
+              "email": "Delfina66@hotmail.com",
+              "firstName": "Mariane",
+              "id": "e1211d78-ce71-5d4d-bc60-600ace11cd0f",
+              "lastName": "O'Connell",
+              "phoneNumber": "1-748-237-7839 x70094",
+            },
+          ]
+    }
+/>,
+}
+`;
+
+exports[`<ContactList /> Component renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <h2>
+        Contact List
+    </h2>
+    <table>
+        <tbody>
+            <ContactItem
+                address="073 Schroeder Ways Suite 206"
+                email="Keely7@hotmail.com"
+                firstName="Clemmie"
+                id="074e5e8c-6ff4-acaa-446f-6a7fa717de58"
+                lastName="Johns"
+                phoneNumber="132.209.0938"
+            />
+            <ContactItem
+                address="4933 Hansen Heights Apt. 903"
+                email="Abbie_Pacocha74@hotmail.com"
+                firstName="Nasir"
+                id="c5acb561-cbbb-ea17-76a2-df5000677704"
+                lastName="Howell"
+                phoneNumber="1-760-002-7211"
+            />
+            <ContactItem
+                address="6248 Ratke Dale Suite 585"
+                email="Devin70@gmail.com"
+                firstName="Edwin"
+                id="966b11c6-af91-0de9-5244-c45154ad3ee8"
+                lastName="Berge"
+                phoneNumber="(961) 508-9590 x581"
+            />
+            <ContactItem
+                address="2960 Ignatius Dale Suite 808"
+                email="Rose_Frami73@yahoo.com"
+                firstName="Shawna"
+                id="c01ff4e9-b19c-76e1-6285-21fd0426b91f"
+                lastName="Morissette"
+                phoneNumber="1-822-974-8576 x9135"
+            />
+            <ContactItem
+                address="10007 Leonel Ridge Suite 699"
+                email="Breana.Boehm70@yahoo.com"
+                firstName="Bonita"
+                id="124de0f1-e48d-3048-87a6-b00abff01aaa"
+                lastName="Cummings"
+                phoneNumber="323.757.3114 x45708"
+            />
+        </tbody>
+    </table>
+</div>,
+  "nodes": Array [
+    <div>
+      <h2>
+            Contact List
+      </h2>
+      <table>
+            <tbody>
+                  <ContactItem
+                        address="073 Schroeder Ways Suite 206"
+                        email="Keely7@hotmail.com"
+                        firstName="Clemmie"
+                        id="074e5e8c-6ff4-acaa-446f-6a7fa717de58"
+                        lastName="Johns"
+                        phoneNumber="132.209.0938"
+                  />
+                  <ContactItem
+                        address="4933 Hansen Heights Apt. 903"
+                        email="Abbie_Pacocha74@hotmail.com"
+                        firstName="Nasir"
+                        id="c5acb561-cbbb-ea17-76a2-df5000677704"
+                        lastName="Howell"
+                        phoneNumber="1-760-002-7211"
+                  />
+                  <ContactItem
+                        address="6248 Ratke Dale Suite 585"
+                        email="Devin70@gmail.com"
+                        firstName="Edwin"
+                        id="966b11c6-af91-0de9-5244-c45154ad3ee8"
+                        lastName="Berge"
+                        phoneNumber="(961) 508-9590 x581"
+                  />
+                  <ContactItem
+                        address="2960 Ignatius Dale Suite 808"
+                        email="Rose_Frami73@yahoo.com"
+                        firstName="Shawna"
+                        id="c01ff4e9-b19c-76e1-6285-21fd0426b91f"
+                        lastName="Morissette"
+                        phoneNumber="1-822-974-8576 x9135"
+                  />
+                  <ContactItem
+                        address="10007 Leonel Ridge Suite 699"
+                        email="Breana.Boehm70@yahoo.com"
+                        firstName="Bonita"
+                        id="124de0f1-e48d-3048-87a6-b00abff01aaa"
+                        lastName="Cummings"
+                        phoneNumber="323.757.3114 x45708"
+                  />
+            </tbody>
+      </table>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <ContactList
+        contacts={
+                Array [
+                        Object {
+                          "address": "073 Schroeder Ways Suite 206",
+                          "email": "Keely7@hotmail.com",
+                          "firstName": "Clemmie",
+                          "id": "074e5e8c-6ff4-acaa-446f-6a7fa717de58",
+                          "lastName": "Johns",
+                          "phoneNumber": "132.209.0938",
+                        },
+                        Object {
+                          "address": "4933 Hansen Heights Apt. 903",
+                          "email": "Abbie_Pacocha74@hotmail.com",
+                          "firstName": "Nasir",
+                          "id": "c5acb561-cbbb-ea17-76a2-df5000677704",
+                          "lastName": "Howell",
+                          "phoneNumber": "1-760-002-7211",
+                        },
+                        Object {
+                          "address": "6248 Ratke Dale Suite 585",
+                          "email": "Devin70@gmail.com",
+                          "firstName": "Edwin",
+                          "id": "966b11c6-af91-0de9-5244-c45154ad3ee8",
+                          "lastName": "Berge",
+                          "phoneNumber": "(961) 508-9590 x581",
+                        },
+                        Object {
+                          "address": "2960 Ignatius Dale Suite 808",
+                          "email": "Rose_Frami73@yahoo.com",
+                          "firstName": "Shawna",
+                          "id": "c01ff4e9-b19c-76e1-6285-21fd0426b91f",
+                          "lastName": "Morissette",
+                          "phoneNumber": "1-822-974-8576 x9135",
+                        },
+                        Object {
+                          "address": "10007 Leonel Ridge Suite 699",
+                          "email": "Breana.Boehm70@yahoo.com",
+                          "firstName": "Bonita",
+                          "id": "124de0f1-e48d-3048-87a6-b00abff01aaa",
+                          "lastName": "Cummings",
+                          "phoneNumber": "323.757.3114 x45708",
+                        },
+                      ]
+        }
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "contacts": Array [
+            Object {
+              "address": "073 Schroeder Ways Suite 206",
+              "email": "Keely7@hotmail.com",
+              "firstName": "Clemmie",
+              "id": "074e5e8c-6ff4-acaa-446f-6a7fa717de58",
+              "lastName": "Johns",
+              "phoneNumber": "132.209.0938",
+            },
+            Object {
+              "address": "4933 Hansen Heights Apt. 903",
+              "email": "Abbie_Pacocha74@hotmail.com",
+              "firstName": "Nasir",
+              "id": "c5acb561-cbbb-ea17-76a2-df5000677704",
+              "lastName": "Howell",
+              "phoneNumber": "1-760-002-7211",
+            },
+            Object {
+              "address": "6248 Ratke Dale Suite 585",
+              "email": "Devin70@gmail.com",
+              "firstName": "Edwin",
+              "id": "966b11c6-af91-0de9-5244-c45154ad3ee8",
+              "lastName": "Berge",
+              "phoneNumber": "(961) 508-9590 x581",
+            },
+            Object {
+              "address": "2960 Ignatius Dale Suite 808",
+              "email": "Rose_Frami73@yahoo.com",
+              "firstName": "Shawna",
+              "id": "c01ff4e9-b19c-76e1-6285-21fd0426b91f",
+              "lastName": "Morissette",
+              "phoneNumber": "1-822-974-8576 x9135",
+            },
+            Object {
+              "address": "10007 Leonel Ridge Suite 699",
+              "email": "Breana.Boehm70@yahoo.com",
+              "firstName": "Bonita",
+              "id": "124de0f1-e48d-3048-87a6-b00abff01aaa",
+              "lastName": "Cummings",
+              "phoneNumber": "323.757.3114 x45708",
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <h2>
+                    Contact List
+          </h2>
+          <table>
+                    <tbody>
+                              <ContactItem
+                                        address="073 Schroeder Ways Suite 206"
+                                        email="Keely7@hotmail.com"
+                                        firstName="Clemmie"
+                                        id="074e5e8c-6ff4-acaa-446f-6a7fa717de58"
+                                        lastName="Johns"
+                                        phoneNumber="132.209.0938"
+                              />
+                              <ContactItem
+                                        address="4933 Hansen Heights Apt. 903"
+                                        email="Abbie_Pacocha74@hotmail.com"
+                                        firstName="Nasir"
+                                        id="c5acb561-cbbb-ea17-76a2-df5000677704"
+                                        lastName="Howell"
+                                        phoneNumber="1-760-002-7211"
+                              />
+                              <ContactItem
+                                        address="6248 Ratke Dale Suite 585"
+                                        email="Devin70@gmail.com"
+                                        firstName="Edwin"
+                                        id="966b11c6-af91-0de9-5244-c45154ad3ee8"
+                                        lastName="Berge"
+                                        phoneNumber="(961) 508-9590 x581"
+                              />
+                              <ContactItem
+                                        address="2960 Ignatius Dale Suite 808"
+                                        email="Rose_Frami73@yahoo.com"
+                                        firstName="Shawna"
+                                        id="c01ff4e9-b19c-76e1-6285-21fd0426b91f"
+                                        lastName="Morissette"
+                                        phoneNumber="1-822-974-8576 x9135"
+                              />
+                              <ContactItem
+                                        address="10007 Leonel Ridge Suite 699"
+                                        email="Breana.Boehm70@yahoo.com"
+                                        firstName="Bonita"
+                                        id="124de0f1-e48d-3048-87a6-b00abff01aaa"
+                                        lastName="Cummings"
+                                        phoneNumber="323.757.3114 x45708"
+                              />
+                    </tbody>
+          </table>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <h2>
+                    Contact List
+          </h2>
+          <table>
+                    <tbody>
+                              <ContactItem
+                                        address="073 Schroeder Ways Suite 206"
+                                        email="Keely7@hotmail.com"
+                                        firstName="Clemmie"
+                                        id="074e5e8c-6ff4-acaa-446f-6a7fa717de58"
+                                        lastName="Johns"
+                                        phoneNumber="132.209.0938"
+                              />
+                              <ContactItem
+                                        address="4933 Hansen Heights Apt. 903"
+                                        email="Abbie_Pacocha74@hotmail.com"
+                                        firstName="Nasir"
+                                        id="c5acb561-cbbb-ea17-76a2-df5000677704"
+                                        lastName="Howell"
+                                        phoneNumber="1-760-002-7211"
+                              />
+                              <ContactItem
+                                        address="6248 Ratke Dale Suite 585"
+                                        email="Devin70@gmail.com"
+                                        firstName="Edwin"
+                                        id="966b11c6-af91-0de9-5244-c45154ad3ee8"
+                                        lastName="Berge"
+                                        phoneNumber="(961) 508-9590 x581"
+                              />
+                              <ContactItem
+                                        address="2960 Ignatius Dale Suite 808"
+                                        email="Rose_Frami73@yahoo.com"
+                                        firstName="Shawna"
+                                        id="c01ff4e9-b19c-76e1-6285-21fd0426b91f"
+                                        lastName="Morissette"
+                                        phoneNumber="1-822-974-8576 x9135"
+                              />
+                              <ContactItem
+                                        address="10007 Leonel Ridge Suite 699"
+                                        email="Breana.Boehm70@yahoo.com"
+                                        firstName="Bonita"
+                                        id="124de0f1-e48d-3048-87a6-b00abff01aaa"
+                                        lastName="Cummings"
+                                        phoneNumber="323.757.3114 x45708"
+                              />
+                    </tbody>
+          </table>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ContactList
+    contacts={
+        Array [
+            Object {
+              "address": "073 Schroeder Ways Suite 206",
+              "email": "Keely7@hotmail.com",
+              "firstName": "Clemmie",
+              "id": "074e5e8c-6ff4-acaa-446f-6a7fa717de58",
+              "lastName": "Johns",
+              "phoneNumber": "132.209.0938",
+            },
+            Object {
+              "address": "4933 Hansen Heights Apt. 903",
+              "email": "Abbie_Pacocha74@hotmail.com",
+              "firstName": "Nasir",
+              "id": "c5acb561-cbbb-ea17-76a2-df5000677704",
+              "lastName": "Howell",
+              "phoneNumber": "1-760-002-7211",
+            },
+            Object {
+              "address": "6248 Ratke Dale Suite 585",
+              "email": "Devin70@gmail.com",
+              "firstName": "Edwin",
+              "id": "966b11c6-af91-0de9-5244-c45154ad3ee8",
+              "lastName": "Berge",
+              "phoneNumber": "(961) 508-9590 x581",
+            },
+            Object {
+              "address": "2960 Ignatius Dale Suite 808",
+              "email": "Rose_Frami73@yahoo.com",
+              "firstName": "Shawna",
+              "id": "c01ff4e9-b19c-76e1-6285-21fd0426b91f",
+              "lastName": "Morissette",
+              "phoneNumber": "1-822-974-8576 x9135",
+            },
+            Object {
+              "address": "10007 Leonel Ridge Suite 699",
+              "email": "Breana.Boehm70@yahoo.com",
+              "firstName": "Bonita",
+              "id": "124de0f1-e48d-3048-87a6-b00abff01aaa",
+              "lastName": "Cummings",
+              "phoneNumber": "323.757.3114 x45708",
+            },
+          ]
+    }
+/>,
+}
+`;

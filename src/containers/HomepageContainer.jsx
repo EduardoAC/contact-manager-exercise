@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 import ContactList from '../components/ContactList';
 
-class HomepageContainer extends Component {
+export class HomepageContainer extends Component {
   constructor(props) {
     super(props);
   }

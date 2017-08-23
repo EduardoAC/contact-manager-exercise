@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Field, reduxForm } from 'redux-form'
 
-const ContactForm = (props) => {
+export const ContactForm = (props) => {
   const { onSubmit, handleSubmit, pristine, submitting } = props
   return (
     <form onSubmit={handleSubmit(onSubmit)} >

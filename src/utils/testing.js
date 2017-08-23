@@ -1,6 +1,8 @@
 import faker from 'faker';
+import guid from './guid';
 
 const getFakeContact = () => ({
+  id: guid(),
   firstName: faker.name.firstName(),
   lastName: faker.name.lastName(),
   phoneNumber: faker.phone.phoneNumber(),
