@@ -15,12 +15,12 @@ export function getContactFromState(state, props) {
   return contact;
 }
 
-export function removeContact(array, contactId) {
-  let values = array.slice();
-  values.splice(index, 1);
-  const index = values.reduce((a, c, i) => {
+export function removeContact(array, index) {
+  let newContacts = array.slice();
+  newContacts.splice(index, 1);
+  const newContactIndex = newContacts.reduce((a, c, i) => {
     a[c.id] = i;
     return a;
-  }, {})
-  return { index, values};
+  }, {});
+  return { index: newContactIndex, values: newContacts};
 }

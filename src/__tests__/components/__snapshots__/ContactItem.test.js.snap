@@ -1,250 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<ContactItem /> Component redenrs correctly 1`] = `
-ShallowWrapper {
-  "complexSelector": ComplexSelector {
-    "buildPredicate": [Function],
-    "childrenOfNode": [Function],
-    "findWhereUnwrapped": [Function],
-  },
-  "length": 1,
-  "node": <tr
-    className="contact__item"
->
-    <td>
-        98a59da4-9781-a957-b446-f27cb63e3b52
-    </td>
-    <td>
-        Denis
-    </td>
-    <td>
-        Becker
-    </td>
-    <td>
-        0313 Aurelio Creek Apt. 778
-    </td>
-    <td>
-        (642) 649-8274 x570
-    </td>
-    <td>
-        Thad_Kerluke@yahoo.com
-    </td>
-    <td>
-        <Link
-            replace={false}
-            style={
-                Object {
-                    "marginRight": "5px",
-                  }
-            }
-            to="/98a59da4-9781-a957-b446-f27cb63e3b52/edit"
-        >
-            Edit
-        </Link>
-        <Link
-            replace={false}
-            to="/98a59da4-9781-a957-b446-f27cb63e3b52/delete"
-        >
-            Delete
-        </Link>
-    </td>
-</tr>,
-  "nodes": Array [
-    <tr
-      className="contact__item"
->
-      <td>
-            98a59da4-9781-a957-b446-f27cb63e3b52
-      </td>
-      <td>
-            Denis
-      </td>
-      <td>
-            Becker
-      </td>
-      <td>
-            0313 Aurelio Creek Apt. 778
-      </td>
-      <td>
-            (642) 649-8274 x570
-      </td>
-      <td>
-            Thad_Kerluke@yahoo.com
-      </td>
-      <td>
-            <Link
-                  replace={false}
-                  style={
-                        Object {
-                              "marginRight": "5px",
-                            }
-                  }
-                  to="/98a59da4-9781-a957-b446-f27cb63e3b52/edit"
-            >
-                  Edit
-            </Link>
-            <Link
-                  replace={false}
-                  to="/98a59da4-9781-a957-b446-f27cb63e3b52/delete"
-            >
-                  Delete
-            </Link>
-      </td>
-</tr>,
-  ],
-  "options": Object {},
-  "renderer": ReactShallowRenderer {
-    "_instance": ShallowComponentWrapper {
-      "_calledComponentWillUnmount": false,
-      "_compositeType": 2,
-      "_context": Object {},
-      "_currentElement": <ContactItem
-        address="0313 Aurelio Creek Apt. 778"
-        email="Thad_Kerluke@yahoo.com"
-        firstName="Denis"
-        id="98a59da4-9781-a957-b446-f27cb63e3b52"
-        lastName="Becker"
-        phoneNumber="(642) 649-8274 x570"
-/>,
-      "_debugID": 1,
-      "_hostContainerInfo": null,
-      "_hostParent": null,
-      "_instance": StatelessComponent {
-        "_reactInternalInstance": [Circular],
-        "context": Object {},
-        "props": Object {
-          "address": "0313 Aurelio Creek Apt. 778",
-          "email": "Thad_Kerluke@yahoo.com",
-          "firstName": "Denis",
-          "id": "98a59da4-9781-a957-b446-f27cb63e3b52",
-          "lastName": "Becker",
-          "phoneNumber": "(642) 649-8274 x570",
-        },
-        "refs": Object {},
-        "state": null,
-        "updater": Object {
-          "enqueueCallback": [Function],
-          "enqueueCallbackInternal": [Function],
-          "enqueueElementInternal": [Function],
-          "enqueueForceUpdate": [Function],
-          "enqueueReplaceState": [Function],
-          "enqueueSetState": [Function],
-          "isMounted": [Function],
-          "validateCallback": [Function],
-        },
-      },
-      "_mountOrder": 1,
-      "_pendingCallbacks": null,
-      "_pendingElement": null,
-      "_pendingForceUpdate": false,
-      "_pendingReplaceState": false,
-      "_pendingStateQueue": null,
-      "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <tr
-          className="contact__item"
->
-          <td>
-                    98a59da4-9781-a957-b446-f27cb63e3b52
-          </td>
-          <td>
-                    Denis
-          </td>
-          <td>
-                    Becker
-          </td>
-          <td>
-                    0313 Aurelio Creek Apt. 778
-          </td>
-          <td>
-                    (642) 649-8274 x570
-          </td>
-          <td>
-                    Thad_Kerluke@yahoo.com
-          </td>
-          <td>
-                    <Link
-                              replace={false}
-                              style={
-                                        Object {
-                                                  "marginRight": "5px",
-                                                }
-                              }
-                              to="/98a59da4-9781-a957-b446-f27cb63e3b52/edit"
-                    >
-                              Edit
-                    </Link>
-                    <Link
-                              replace={false}
-                              to="/98a59da4-9781-a957-b446-f27cb63e3b52/delete"
-                    >
-                              Delete
-                    </Link>
-          </td>
-</tr>,
-        "_debugID": 2,
-        "_renderedOutput": <tr
-          className="contact__item"
->
-          <td>
-                    98a59da4-9781-a957-b446-f27cb63e3b52
-          </td>
-          <td>
-                    Denis
-          </td>
-          <td>
-                    Becker
-          </td>
-          <td>
-                    0313 Aurelio Creek Apt. 778
-          </td>
-          <td>
-                    (642) 649-8274 x570
-          </td>
-          <td>
-                    Thad_Kerluke@yahoo.com
-          </td>
-          <td>
-                    <Link
-                              replace={false}
-                              style={
-                                        Object {
-                                                  "marginRight": "5px",
-                                                }
-                              }
-                              to="/98a59da4-9781-a957-b446-f27cb63e3b52/edit"
-                    >
-                              Edit
-                    </Link>
-                    <Link
-                              replace={false}
-                              to="/98a59da4-9781-a957-b446-f27cb63e3b52/delete"
-                    >
-                              Delete
-                    </Link>
-          </td>
-</tr>,
-      },
-      "_renderedNodeType": 0,
-      "_rootNodeID": 0,
-      "_topLevelWrapper": null,
-      "_updateBatchNumber": null,
-      "_warnedAboutRefsInRender": false,
-    },
-    "getRenderOutput": [Function],
-    "render": [Function],
-  },
-  "root": [Circular],
-  "unrendered": <ContactItem
-    address="0313 Aurelio Creek Apt. 778"
-    email="Thad_Kerluke@yahoo.com"
-    firstName="Denis"
-    id="98a59da4-9781-a957-b446-f27cb63e3b52"
-    lastName="Becker"
-    phoneNumber="(642) 649-8274 x570"
-/>,
-}
-`;
-
 exports[`<ContactItem /> Component renders correctly 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
@@ -257,22 +12,22 @@ ShallowWrapper {
     className="contact__item"
 >
     <td>
-        def433df-9c9a-eaff-cc91-66ff0dd4505b
+        90ea73a5-db19-3fb7-a6b4-539d9aa464e8
     </td>
     <td>
-        Vivien
+        Dina
     </td>
     <td>
-        Romaguera
+        Reilly
     </td>
     <td>
-        7699 Abernathy Burg Apt. 462
+        81456 Elinor Mountain Suite 968
     </td>
     <td>
-        081-301-5588 x534
+        760.352.1867 x6215
     </td>
     <td>
-        Serenity22@hotmail.com
+        Ian.Dietrich@yahoo.com
     </td>
     <td>
         <Link
@@ -282,13 +37,13 @@ ShallowWrapper {
                     "marginRight": "5px",
                   }
             }
-            to="/def433df-9c9a-eaff-cc91-66ff0dd4505b/edit"
+            to="/90ea73a5-db19-3fb7-a6b4-539d9aa464e8/edit"
         >
             Edit
         </Link>
         <Link
             replace={false}
-            to="/def433df-9c9a-eaff-cc91-66ff0dd4505b/delete"
+            to="/90ea73a5-db19-3fb7-a6b4-539d9aa464e8/delete"
         >
             Delete
         </Link>
@@ -299,22 +54,22 @@ ShallowWrapper {
       className="contact__item"
 >
       <td>
-            def433df-9c9a-eaff-cc91-66ff0dd4505b
+            90ea73a5-db19-3fb7-a6b4-539d9aa464e8
       </td>
       <td>
-            Vivien
+            Dina
       </td>
       <td>
-            Romaguera
+            Reilly
       </td>
       <td>
-            7699 Abernathy Burg Apt. 462
+            81456 Elinor Mountain Suite 968
       </td>
       <td>
-            081-301-5588 x534
+            760.352.1867 x6215
       </td>
       <td>
-            Serenity22@hotmail.com
+            Ian.Dietrich@yahoo.com
       </td>
       <td>
             <Link
@@ -324,13 +79,13 @@ ShallowWrapper {
                               "marginRight": "5px",
                             }
                   }
-                  to="/def433df-9c9a-eaff-cc91-66ff0dd4505b/edit"
+                  to="/90ea73a5-db19-3fb7-a6b4-539d9aa464e8/edit"
             >
                   Edit
             </Link>
             <Link
                   replace={false}
-                  to="/def433df-9c9a-eaff-cc91-66ff0dd4505b/delete"
+                  to="/90ea73a5-db19-3fb7-a6b4-539d9aa464e8/delete"
             >
                   Delete
             </Link>
@@ -344,12 +99,12 @@ ShallowWrapper {
       "_compositeType": 2,
       "_context": Object {},
       "_currentElement": <ContactItem
-        address="7699 Abernathy Burg Apt. 462"
-        email="Serenity22@hotmail.com"
-        firstName="Vivien"
-        id="def433df-9c9a-eaff-cc91-66ff0dd4505b"
-        lastName="Romaguera"
-        phoneNumber="081-301-5588 x534"
+        address="81456 Elinor Mountain Suite 968"
+        email="Ian.Dietrich@yahoo.com"
+        firstName="Dina"
+        id="90ea73a5-db19-3fb7-a6b4-539d9aa464e8"
+        lastName="Reilly"
+        phoneNumber="760.352.1867 x6215"
 />,
       "_debugID": 1,
       "_hostContainerInfo": null,
@@ -358,12 +113,12 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
-          "address": "7699 Abernathy Burg Apt. 462",
-          "email": "Serenity22@hotmail.com",
-          "firstName": "Vivien",
-          "id": "def433df-9c9a-eaff-cc91-66ff0dd4505b",
-          "lastName": "Romaguera",
-          "phoneNumber": "081-301-5588 x534",
+          "address": "81456 Elinor Mountain Suite 968",
+          "email": "Ian.Dietrich@yahoo.com",
+          "firstName": "Dina",
+          "id": "90ea73a5-db19-3fb7-a6b4-539d9aa464e8",
+          "lastName": "Reilly",
+          "phoneNumber": "760.352.1867 x6215",
         },
         "refs": Object {},
         "state": null,
@@ -389,22 +144,22 @@ ShallowWrapper {
           className="contact__item"
 >
           <td>
-                    def433df-9c9a-eaff-cc91-66ff0dd4505b
+                    90ea73a5-db19-3fb7-a6b4-539d9aa464e8
           </td>
           <td>
-                    Vivien
+                    Dina
           </td>
           <td>
-                    Romaguera
+                    Reilly
           </td>
           <td>
-                    7699 Abernathy Burg Apt. 462
+                    81456 Elinor Mountain Suite 968
           </td>
           <td>
-                    081-301-5588 x534
+                    760.352.1867 x6215
           </td>
           <td>
-                    Serenity22@hotmail.com
+                    Ian.Dietrich@yahoo.com
           </td>
           <td>
                     <Link
@@ -414,13 +169,13 @@ ShallowWrapper {
                                                   "marginRight": "5px",
                                                 }
                               }
-                              to="/def433df-9c9a-eaff-cc91-66ff0dd4505b/edit"
+                              to="/90ea73a5-db19-3fb7-a6b4-539d9aa464e8/edit"
                     >
                               Edit
                     </Link>
                     <Link
                               replace={false}
-                              to="/def433df-9c9a-eaff-cc91-66ff0dd4505b/delete"
+                              to="/90ea73a5-db19-3fb7-a6b4-539d9aa464e8/delete"
                     >
                               Delete
                     </Link>
@@ -431,22 +186,22 @@ ShallowWrapper {
           className="contact__item"
 >
           <td>
-                    def433df-9c9a-eaff-cc91-66ff0dd4505b
+                    90ea73a5-db19-3fb7-a6b4-539d9aa464e8
           </td>
           <td>
-                    Vivien
+                    Dina
           </td>
           <td>
-                    Romaguera
+                    Reilly
           </td>
           <td>
-                    7699 Abernathy Burg Apt. 462
+                    81456 Elinor Mountain Suite 968
           </td>
           <td>
-                    081-301-5588 x534
+                    760.352.1867 x6215
           </td>
           <td>
-                    Serenity22@hotmail.com
+                    Ian.Dietrich@yahoo.com
           </td>
           <td>
                     <Link
@@ -456,13 +211,13 @@ ShallowWrapper {
                                                   "marginRight": "5px",
                                                 }
                               }
-                              to="/def433df-9c9a-eaff-cc91-66ff0dd4505b/edit"
+                              to="/90ea73a5-db19-3fb7-a6b4-539d9aa464e8/edit"
                     >
                               Edit
                     </Link>
                     <Link
                               replace={false}
-                              to="/def433df-9c9a-eaff-cc91-66ff0dd4505b/delete"
+                              to="/90ea73a5-db19-3fb7-a6b4-539d9aa464e8/delete"
                     >
                               Delete
                     </Link>
@@ -480,12 +235,12 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <ContactItem
-    address="7699 Abernathy Burg Apt. 462"
-    email="Serenity22@hotmail.com"
-    firstName="Vivien"
-    id="def433df-9c9a-eaff-cc91-66ff0dd4505b"
-    lastName="Romaguera"
-    phoneNumber="081-301-5588 x534"
+    address="81456 Elinor Mountain Suite 968"
+    email="Ian.Dietrich@yahoo.com"
+    firstName="Dina"
+    id="90ea73a5-db19-3fb7-a6b4-539d9aa464e8"
+    lastName="Reilly"
+    phoneNumber="760.352.1867 x6215"
 />,
 }
 `;

@@ -3,12 +3,12 @@ import { shallow, mount } from 'enzyme';
 import { Link } from 'react-router-dom';
 
 import ContactItem from '../../components/ContactItem';
-import { getFakeContact } from '../../utils/testing';
+import { getFakeContact, mockContact } from '../../utils/testing';
 
 describe('<ContactItem />', () => {
   let wrapper
   it('Component renders correctly', () => {
-    const wrapper = shallow(<ContactItem {...getFakeContact()} />);
+    const wrapper = shallow(<ContactItem {...mockContact} />);
     expect(wrapper).toMatchSnapshot();
   });
 
